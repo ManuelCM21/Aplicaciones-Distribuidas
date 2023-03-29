@@ -12,6 +12,7 @@ public class Cities extends Thread {
         city.add("Moquegua");
         city.add("Quellouno");
         city.add("Calca");
+        
         for (int i = 0; i < city.size(); i++) {
             System.out.println(city.get(i));
         }
