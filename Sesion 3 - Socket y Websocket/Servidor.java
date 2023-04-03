@@ -7,7 +7,9 @@ import java.net.Socket;
 public class Servidor {
 
     public static void main(String[] args) throws IOException {
+
         final int puerto = 5000;
+
         try (ServerSocket serverSocket = new ServerSocket(puerto)) {
             System.out.println("Servidor iniciado");
             while (true) {

@@ -6,6 +6,7 @@ import java.net.Socket;
 public class Cliente {
 
     public static void main(String[] args) throws IOException {
+
         final String host = "127.0.0.1";
         final int puerto = 5000;
         Socket socket = new Socket(host, puerto);
@@ -14,5 +15,6 @@ public class Cliente {
         DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
         dataOutputStream.writeUTF("Mensaje desde el cliente");
         socket.close();
+        
     }
 }
