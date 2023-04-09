@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.websocketserver.model;
 
 public class Mensaje {
     private String mensaje;
