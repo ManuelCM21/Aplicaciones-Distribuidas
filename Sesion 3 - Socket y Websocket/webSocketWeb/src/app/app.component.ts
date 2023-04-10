@@ -10,7 +10,6 @@ import * as SockJS from 'sockjs-client';
 })
 export class AppComponent {
   title = 'webSocketWeb';
-
   conectado: boolean = false;
 
   webSocketEndPoint: string = 'http://localhost:8181/ws';

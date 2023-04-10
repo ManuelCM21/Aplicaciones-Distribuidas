@@ -3,6 +3,7 @@ import * as SockJS from 'sockjs-client';
 import { AppComponent } from './app.component';
 
 export class WebSocketAPI {
+
     webSocketEndPoint: string = 'http://localhost:8181/ws';
     topic: string = "/topic/greetings";
     stompClient: any;
