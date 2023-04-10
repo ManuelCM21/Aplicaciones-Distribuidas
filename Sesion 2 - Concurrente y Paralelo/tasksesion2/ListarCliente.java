@@ -66,6 +66,16 @@ public class ListarCliente {
         listaClientes.agregarCliente("Cliente 38", true);
         listaClientes.agregarCliente("Cliente 39", false);
         listaClientes.agregarCliente("Cliente 40", false);
+        listaClientes.agregarCliente("Cliente 41", true);
+        listaClientes.agregarCliente("Cliente 42", true);
+        listaClientes.agregarCliente("Cliente 43", false);
+        listaClientes.agregarCliente("Cliente 44", true);
+        listaClientes.agregarCliente("Cliente 45", true);
+        listaClientes.agregarCliente("Cliente 46", false);
+        listaClientes.agregarCliente("Cliente 47", true);
+        listaClientes.agregarCliente("Cliente 48", true);
+        listaClientes.agregarCliente("Cliente 49", false);
+        listaClientes.agregarCliente("Cliente 50", false);
 
         long tiempoInicio = System.nanoTime();
         List<String> clientesActivos = listaClientes.obtenerClientesPorEstado(true);
