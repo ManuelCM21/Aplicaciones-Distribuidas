@@ -1,6 +1,6 @@
-package com.example.websocketserver.controller;
+package com.example.websocketserve.controller;
 
-import com.example.websocketserver.model.Mensaje;
+import com.example.websocketserve.model.Mensaje;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
